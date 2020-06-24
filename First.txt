@@ -16,3 +16,41 @@ git show
 
 git ignore
 
+
+git remote add alias name and url
+git push -u alias name master
+
+https-> goodway to connect
+Admin@DESKTOP-G3EQBDG MINGW64 /c/Devops/mycode (master)
+$ git config --global user.name
+sumivel
+
+Admin@DESKTOP-G3EQBDG MINGW64 /c/Devops/mycode (master)
+$ git push -u origin master
+remote: Permission to sumivel/mycode.git denied to RakeshVel.
+fatal: unable to access 'https://github.com/sumivel/mycode.git/': The requested URL returned error: 403
+
+Admin@DESKTOP-G3EQBDG MINGW64 /c/Devops/mycode (master)
+$ git config --system --unset credential.helper
+error: could not lock config file C:/Program Files/Git/etc/gitconfig: Permission denied
+
+Admin@DESKTOP-G3EQBDG MINGW64 /c/Devops/mycode (master)
+$ git push -u origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (13/13), 1.02 KiB | 36.00 KiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sumivel/mycode.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@DESKTOP-G3EQBDG MINGW64 /c/Devops/mycode (master)
+
+
+credential manually remove in windows credentials.
+
+
+
