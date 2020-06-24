@@ -8,5 +8,9 @@ cd
 
 Git Init
 Git Status
-Git add 
-Git command
+Git add folder or git add .
+Git commit
+
+git log
+git show
+
