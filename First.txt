@@ -5,3 +5,8 @@ pwd
 cd ..
 cd devops
 cd 
+
+Git Init
+Git Status
+Git add 
+Git command
