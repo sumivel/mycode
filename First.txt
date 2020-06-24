@@ -1,0 +1,7 @@
+C:\Devops\mycode
+
+CD ~
+pwd
+cd ..
+cd devops
+cd 
